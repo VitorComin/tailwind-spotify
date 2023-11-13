@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Home as HomeIcon,
   Search,
@@ -67,13 +68,72 @@ export default function Home() {
           </nav>
         </aside>
         <main className="flex-1 p-6">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <button className="rounded-full bg-black/40 p-1">
               <ChevronLeft />
             </button>
             <button className="rounded-full bg-black/40 p-1">
               <ChevronRight />
             </button>
+          </div>
+
+          <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
+
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
+              <Image
+                src="/8mile-album.jpeg"
+                width={104}
+                height={104}
+                alt="Capa do álbum 8-mile do Eminem"
+              />
+              <strong>8-Mile</strong>
+            </div>
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
+              <Image
+                src="/8mile-album.jpeg"
+                width={104}
+                height={104}
+                alt="Capa do álbum 8-mile do Eminem"
+              />
+              <strong>8-Mile</strong>
+            </div>
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
+              <Image
+                src="/8mile-album.jpeg"
+                width={104}
+                height={104}
+                alt="Capa do álbum 8-mile do Eminem"
+              />
+              <strong>8-Mile</strong>
+            </div>
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
+              <Image
+                src="/8mile-album.jpeg"
+                width={104}
+                height={104}
+                alt="Capa do álbum 8-mile do Eminem"
+              />
+              <strong>8-Mile</strong>
+            </div>
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
+              <Image
+                src="/8mile-album.jpeg"
+                width={104}
+                height={104}
+                alt="Capa do álbum 8-mile do Eminem"
+              />
+              <strong>8-Mile</strong>
+            </div>
+            <div className="bg-white/10 rounded flex items-center gap-4 overflow-hidden">
+              <Image
+                src="/8mile-album.jpeg"
+                width={104}
+                height={104}
+                alt="Capa do álbum 8-mile do Eminem"
+              />
+              <strong>8-Mile</strong>
+            </div>
           </div>
         </main>
       </div>
